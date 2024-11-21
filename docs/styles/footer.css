@@ -40,7 +40,8 @@
         padding: 11.2rem 8rem;
         text-align: left;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
+        align-items: flex-start;
     }
 
     .footer-cta .info h2 {

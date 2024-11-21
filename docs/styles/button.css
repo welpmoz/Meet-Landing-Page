@@ -37,3 +37,13 @@
     }
 }
 
+/* additional style for button in footer */
+.footer-cta .button {
+    align-self: center;
+}
+
+@media (min-width: 56.25rem) {
+    .footer-cta .button {
+        align-self: flex-start;
+    }
+}
