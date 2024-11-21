@@ -1,0 +1,53 @@
+/* mobile first approach */
+
+.footer-cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-cta .info {
+    background: url('../assets/mobile/image-footer.jpg'), var(--cyan-600);
+    background-blend-mode: soft-light;
+    background-size: cover;
+    align-self: stretch;
+}
+
+.footer-cta .info .content {
+    padding: 6.4rem 3.2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.4rem;
+}
+
+@media (min-width: 40.625rem) {
+    .footer-cta .info {
+        background-image: url('../assets/tablet/image-footer.jpg');
+    }
+
+    .footer-cta .info p {
+        max-width: 47ch;
+    }
+}
+
+@media (min-width: 56.25rem) {
+    .footer-cta .info {
+        background-image: url('../assets/desktop/image-footer.jpg');
+    }
+    .footer-cta .info .content {
+        padding: 11.2rem 8rem;
+        text-align: left;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .footer-cta .info h2 {
+        max-width: 12ch;
+    }
+
+    .footer-cta .info p {
+        max-width: 30ch;
+    }
+}

@@ -1,0 +1,14 @@
+/* Mobile first approach */
+
+.navigation {
+    padding: 4.8rem 0 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media (min-width: 56.25rem) {
+    .navigation {
+        padding-top: 8rem;
+    }
+}
