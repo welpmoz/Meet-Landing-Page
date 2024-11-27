@@ -21,8 +21,8 @@ This is a solution to the [Meet Landing Page challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [GitHub repository](https://github.com/welpmoz/Testimonial-Grid-Section).
-- Live Site URL: [Live site](https://welpmoz.github.io/Testimonial-Grid-Section/)
+- Solution URL: [GitHub repository](https://github.com/welpmoz/Meet-Landing-Page).
+- Live Site URL: [Live site](https://welpmoz.github.io/Meet-Landing-Page/)
 
 ## My process
 
